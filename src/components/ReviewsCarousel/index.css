@@ -1,0 +1,84 @@
+/* Write your code here */
+.bg-container {
+  min-height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+.reviews-heading {
+  font-size: 32px;
+  color: #ffffff;
+}
+.carousal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.arrow-img {
+  width: 25px;
+}
+.person-details-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0 30px;
+}
+.profile-img {
+  width: 125px;
+}
+.profile-name {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.company-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #171f46;
+}
+.description {
+  font-size: 18px;
+  color: #171f46;
+  text-align: center;
+}
+
+@media (width <768px){
+  .main-container{
+    width: 95%;
+  }
+  .reviews-heading{
+    font-size: 28px;
+  }
+  .person-details-container{
+    width: 70%;
+  }
+  .profile-img{
+    width: 100px;
+  }
+  .profile-name{
+    font-size: 22px;
+  }
+  .company-name{
+    font-size: 18px;
+  }
+  .description{
+    font-size: 16px;
+  }
+}
